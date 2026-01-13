@@ -1,4 +1,4 @@
-const formulario1 = document.querySelector("#formulario");
+const formulario1 = document.querySelector("#saludo");
 const resultado = document.querySelector("#resultado");
 let emojis = "";
 formulario1.addEventListener("click", function (event) {
