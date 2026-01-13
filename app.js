@@ -1,7 +1,7 @@
 const formulario1 = document.querySelector("#saludo");
 const resultado = document.querySelector("#resultado");
 let emojis = "";
-formulario1.addEventListener("click", function (event) {
+saludo.addEventListener("click", function (event) {
     event.preventDefault();
     const name1 = document.querySelector("#name").value; 
     const age = document.querySelector("#age").value;
